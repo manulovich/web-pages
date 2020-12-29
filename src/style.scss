@@ -5,3 +5,16 @@
 
 @import './style/reset';
 @import './style/scssVariable';
+
+.wrapper {
+    min-height: 100vh;
+    font-family: $helveticaNeueLTPro;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+@import './style/header';

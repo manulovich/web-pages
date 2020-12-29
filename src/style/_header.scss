@@ -1,0 +1,64 @@
+.header {
+    position: fixed;
+    width: 100%;
+
+    background-color: #fff;
+    font-family: $roboto;
+
+    transition: .3s;
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__logo {
+        margin: 0px 59px;
+    }
+}
+
+.link-list {
+
+    &__link {
+        display: inline-block;
+        vertical-align: middle;
+
+        & + & {
+            margin: 0px 0px 0px 44px;
+        }
+        
+        a {
+            text-transform: capitalize;
+            color: #989696;
+            transition: .2s;
+        }
+
+        &:hover {
+
+            a {
+                color: #010101;
+            }
+        }
+    }
+}
+
+.logo {
+    width: 54px;
+    transition: .3s;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.header--scroll-down {
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, .5);
+
+    .header__logo {
+        width: 30px;
+
+        margin: 0px 30px;
+    }
+}
